@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-type HasId = {
+export type HasId = {
   id: number;
 };
 
@@ -12,8 +12,9 @@ export type ProtoPokeStructure = {
 export type PokeStructure = HasId & ProtoPokeStructure;
 
 export class Pokemon implements PokeStructure {
+  public id!: number;
   public isFavorite: boolean;
-  constructor(public id: number, public name: string, public image: string) {
+  constructor(public name: string, public image: string) {
     this.isFavorite = false;
   }
 }
