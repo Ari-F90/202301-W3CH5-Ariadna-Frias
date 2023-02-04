@@ -12,8 +12,9 @@ export class Header extends Component {
   private createTemplate() {
     return `
       <header class="header">
+      <img class ="header__logo"src="pokemon-logo.svg">
         <h1 class="header__title">Pokémon App</h1>
-        <p class="header__phrase" role="phrase">Know all of them!</p>
+        <p class="header__phrase" role="phrase" >Know all of them!</p>
       </header>
     `;
   }
