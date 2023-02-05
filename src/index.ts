@@ -5,7 +5,6 @@ import { Menu } from './components/menu/menu';
 import { PokeList } from './components/section/pokeList';
 import { Footer } from './components/footer/footer';
 
-import { PokeApiRepo } from './services/repository/poke.api.repo';
 import './index.scss';
 
 new Header('.app');
