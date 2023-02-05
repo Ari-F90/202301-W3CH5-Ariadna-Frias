@@ -7,7 +7,7 @@ export class PokeList extends Component {
     super();
 
     this.template = this.createTemplate();
-    this.render('afterbegin');
+    this.render('afterend');
   }
 
   render(place: globalThis.InsertPosition) {
