@@ -8,7 +8,6 @@ import { Footer } from './components/footer/footer';
 import { PokeApiRepo } from './services/repository/poke.api.repo';
 import './index.scss';
 
-const poke = await new PokeApiRepo().loadPokemons();
 new Header('.app');
 new Menu('.header');
 new PokeList('header');
