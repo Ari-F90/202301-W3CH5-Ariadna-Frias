@@ -20,6 +20,8 @@ export class Card extends Component {
     <div><li class="card">
         <span>${this.pokemon.name}</span>
       <span><img>${this.pokemon.image}</img></span>
+      <button>Add to my favorite</button>
+      <button>Details</button>
     </li></div>`;
   }
 }
